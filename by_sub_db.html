@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="3afcece1-cf18-4805-a7db-a32707c336dc" data-root-id="10789"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="10968">
+          {"3293580f-0531-401a-88f1-a3a5abd2f12d":{"roots":{"references":[{"attributes":{"below":[{"id":"10799","type":"LinearAxis"}],"left":[{"id":"10804","type":"LinearAxis"}],"plot_height":500,"plot_width":800,"renderers":[{"id":"10799","type":"LinearAxis"},{"id":"10803","type":"Grid"},{"id":"10804","type":"LinearAxis"},{"id":"10808","type":"Grid"},{"id":"10825","type":"Legend"},{"id":"10818","type":"GlyphRenderer"}],"title":{"id":"10788","type":"Title"},"toolbar":{"id":"10810","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"10791","type":"DataRange1d"},"x_scale":{"id":"10795","type":"LinearScale"},"y_range":{"id":"10793","type":"DataRange1d"},"y_scale":{"id":"10797","type":"LinearScale"}},"id":"10789","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"10800","type":"BasicTicker"},{"attributes":{"items":[{"id":"10826","type":"LegendItem"}],"plot":{"id":"10789","subtype":"Figure","type":"Plot"}},"id":"10825","type":"Legend"},{"attributes":{"callback":null},"id":"10791","type":"DataRange1d"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"10809","type":"HoverTool"}]},"id":"10810","type":"Toolbar"},{"attributes":{},"id":"10868","type":"Selection"},{"attributes":{"source":{"id":"10814","type":"ColumnDataSource"}},"id":"10819","type":"CDSView"},{"attributes":{},"id":"10797","type":"LinearScale"},{"attributes":{},"id":"10823","type":"BasicTickFormatter"},{"attributes":{"callback":null,"tooltips":"@complete_database: @value GB"},"id":"10809","type":"HoverTool"},{"attributes":{"plot":null,"text":"Genomic Data on Server by Sub Database (in GB)"},"id":"10788","type":"Title"},{"attributes":{"end_angle":{"expr":{"id":"10813","type":"CumSum"},"units":"rad"},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"units":"data","value":0.4},"start_angle":{"expr":{"id":"10812","type":"CumSum"},"units":"rad"},"x":{"value":0},"y":{"value":1}},"id":"10816","type":"Wedge"},{"attributes":{"label":{"field":"complete_database"},"renderers":[{"id":"10818","type":"GlyphRenderer"}]},"id":"10826","type":"LegendItem"},{"attributes":{"data_source":{"id":"10814","type":"ColumnDataSource"},"glyph":{"id":"10816","type":"Wedge"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"10817","type":"Wedge"},"selection_glyph":null,"view":{"id":"10819","type":"CDSView"}},"id":"10818","type":"GlyphRenderer"},{"attributes":{"plot":{"id":"10789","subtype":"Figure","type":"Plot"},"ticker":{"id":"10800","type":"BasicTicker"}},"id":"10803","type":"Grid"},{"attributes":{"end_angle":{"expr":{"id":"10813","type":"CumSum"},"units":"rad"},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"radius":{"units":"data","value":0.4},"start_angle":{"expr":{"id":"10812","type":"CumSum"},"units":"rad"},"x":{"value":0},"y":{"value":1}},"id":"10817","type":"Wedge"},{"attributes":{},"id":"10805","type":"BasicTicker"},{"attributes":{},"id":"10821","type":"BasicTickFormatter"},{"attributes":{"callback":null},"id":"10793","type":"DataRange1d"},{"attributes":{"formatter":{"id":"10823","type":"BasicTickFormatter"},"plot":{"id":"10789","subtype":"Figure","type":"Plot"},"ticker":{"id":"10805","type":"BasicTicker"}},"id":"10804","type":"LinearAxis"},{"attributes":{},"id":"10795","type":"LinearScale"},{"attributes":{"field":"angle"},"id":"10813","type":"CumSum"},{"attributes":{"dimension":1,"plot":{"id":"10789","subtype":"Figure","type":"Plot"},"ticker":{"id":"10805","type":"BasicTicker"}},"id":"10808","type":"Grid"},{"attributes":{"formatter":{"id":"10821","type":"BasicTickFormatter"},"plot":{"id":"10789","subtype":"Figure","type":"Plot"},"ticker":{"id":"10800","type":"BasicTicker"}},"id":"10799","type":"LinearAxis"},{"attributes":{},"id":"10869","type":"UnionRenderers"},{"attributes":{"field":"angle","include_zero":true},"id":"10812","type":"CumSum"},{"attributes":{"callback":null,"data":{"angle":{"__ndarray__":"eUNUDf729z9YdVdPoc3eP2KKz16qxVI/3e1ktRHpMT+c/48hD+3IP/ppsy0ZAFw/kudoRLhd4T9QN92SsAeSPzcC8PSz0YE/iTmG+9Wj4D+dU+v6EaB1P8CGHclLXu0/FFHjXlz05j/gSRU7s+DxPw1Y4nmRm9A/","dtype":"float64","shape":[15]},"color":["#e5f5e0","#a1d99b","#feedde","#fdd0a2","#fdae6b","#fd8d3c","#e6550d","#a63603","#9467bd","#8c564b","#deebf7","#9ecae1","#3182bd","#e377c2","#d62728"],"complete_database":[" ENA  env "," ENA  pro "," JGI  JGI_archaea "," JGI  JGI_archaea_v2 "," JGI  JGI_bacteria "," JGI  JGI_bacteria_v2 "," JGI  JGI_metagenomes "," JGI  JGI_metagenomes_v2 "," MGnify  bacteria "," Metasub  bacteria "," NCBI  archaea "," NCBI  bacteria "," NCBI  metagenome "," Segata-Pasolli  metagenome "," ensembl  bacteria "],"database":[" ENA "," ENA "," JGI "," JGI "," JGI "," JGI "," JGI "," JGI "," MGnify "," Metasub "," NCBI "," NCBI "," NCBI "," Segata-Pasolli "," ensembl "],"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14],"sub_database":[" env "," pro "," JGI_archaea "," JGI_archaea_v2 "," JGI_bacteria "," JGI_bacteria_v2 "," JGI_metagenomes "," JGI_metagenomes_v2 "," bacteria "," bacteria "," archaea "," bacteria "," metagenome "," metagenome "," bacteria "],"value":{"__ndarray__":"c9cS8kGdnkCP5PIf0qyDQLPqc7UV+/c/4XoUrkfh1j+amZmZmddvQDSAt0CC4gFA0ZFc/kMvhkAOT6+UZQg3QDPEsS5uwyZA0m9fB85BhUCqYFRSJ6AbQNV46SYxwpJAvp8aL91SjUDjx5i7ltaWQGPuWkI+N3VA","dtype":"float64","shape":[15]}},"selected":{"id":"10868","type":"Selection"},"selection_policy":{"id":"10869","type":"UnionRenderers"}},"id":"10814","type":"ColumnDataSource"}],"root_ids":["10789"]},"title":"Bokeh Application","version":"1.0.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('10968').textContent;
+                  var render_items = [{"docid":"3293580f-0531-401a-88f1-a3a5abd2f12d","roots":{"10789":"3afcece1-cf18-4805-a7db-a32707c336dc"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

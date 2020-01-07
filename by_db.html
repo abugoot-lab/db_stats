@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="20d5fbe4-b275-4f9d-9a44-7ce88e4b20a4" data-root-id="10607"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="10779">
+          {"29d883e5-f393-4f26-bfb7-6971f40b4431":{"roots":{"references":[{"attributes":{"below":[{"id":"10617","type":"LinearAxis"}],"left":[{"id":"10622","type":"LinearAxis"}],"plot_height":500,"plot_width":800,"renderers":[{"id":"10617","type":"LinearAxis"},{"id":"10621","type":"Grid"},{"id":"10622","type":"LinearAxis"},{"id":"10626","type":"Grid"},{"id":"10643","type":"Legend"},{"id":"10636","type":"GlyphRenderer"}],"title":{"id":"10606","type":"Title"},"toolbar":{"id":"10628","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"10609","type":"DataRange1d"},"x_scale":{"id":"10613","type":"LinearScale"},"y_range":{"id":"10611","type":"DataRange1d"},"y_scale":{"id":"10615","type":"LinearScale"}},"id":"10607","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"10679","type":"Selection"},{"attributes":{"plot":null,"text":"Genomic Data on Server by Database (in GB)"},"id":"10606","type":"Title"},{"attributes":{"end_angle":{"expr":{"id":"10631","type":"CumSum"},"units":"rad"},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"radius":{"units":"data","value":0.4},"start_angle":{"expr":{"id":"10630","type":"CumSum"},"units":"rad"},"x":{"value":0},"y":{"value":1}},"id":"10635","type":"Wedge"},{"attributes":{"field":"angle"},"id":"10631","type":"CumSum"},{"attributes":{"formatter":{"id":"10641","type":"BasicTickFormatter"},"plot":{"id":"10607","subtype":"Figure","type":"Plot"},"ticker":{"id":"10623","type":"BasicTicker"}},"id":"10622","type":"LinearAxis"},{"attributes":{},"id":"10613","type":"LinearScale"},{"attributes":{"source":{"id":"10632","type":"ColumnDataSource"}},"id":"10637","type":"CDSView"},{"attributes":{"end_angle":{"expr":{"id":"10631","type":"CumSum"},"units":"rad"},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"units":"data","value":0.4},"start_angle":{"expr":{"id":"10630","type":"CumSum"},"units":"rad"},"x":{"value":0},"y":{"value":1}},"id":"10634","type":"Wedge"},{"attributes":{"callback":null},"id":"10611","type":"DataRange1d"},{"attributes":{},"id":"10639","type":"BasicTickFormatter"},{"attributes":{"items":[{"id":"10644","type":"LegendItem"}],"plot":{"id":"10607","subtype":"Figure","type":"Plot"}},"id":"10643","type":"Legend"},{"attributes":{},"id":"10618","type":"BasicTicker"},{"attributes":{},"id":"10623","type":"BasicTicker"},{"attributes":{"label":{"field":"database"},"renderers":[{"id":"10636","type":"GlyphRenderer"}]},"id":"10644","type":"LegendItem"},{"attributes":{"formatter":{"id":"10639","type":"BasicTickFormatter"},"plot":{"id":"10607","subtype":"Figure","type":"Plot"},"ticker":{"id":"10618","type":"BasicTicker"}},"id":"10617","type":"LinearAxis"},{"attributes":{"dimension":1,"plot":{"id":"10607","subtype":"Figure","type":"Plot"},"ticker":{"id":"10623","type":"BasicTicker"}},"id":"10626","type":"Grid"},{"attributes":{},"id":"10680","type":"UnionRenderers"},{"attributes":{},"id":"10641","type":"BasicTickFormatter"},{"attributes":{"plot":{"id":"10607","subtype":"Figure","type":"Plot"},"ticker":{"id":"10618","type":"BasicTicker"}},"id":"10621","type":"Grid"},{"attributes":{},"id":"10615","type":"LinearScale"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"10627","type":"HoverTool"}]},"id":"10628","type":"Toolbar"},{"attributes":{"data_source":{"id":"10632","type":"ColumnDataSource"},"glyph":{"id":"10634","type":"Wedge"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"10635","type":"Wedge"},"selection_glyph":null,"view":{"id":"10637","type":"CDSView"}},"id":"10636","type":"GlyphRenderer"},{"attributes":{"field":"angle","include_zero":true},"id":"10630","type":"CumSum"},{"attributes":{"callback":null,"data":{"angle":{"__ndarray__":"XQ7WWGaq/z96RNOY2ULoP/iCh/aw0YE/N8SnB9aj4D9H+Rkl9D76PygJ1EKz4PE/0kCIeJGb0D8=","dtype":"float64","shape":[7]},"color":["#005a32","#238b45","#41ab5d","#74c476","#a1d99b","#c7e9c0","#edf8e9"],"database":[" ENA "," JGI "," MGnify "," Metasub "," NCBI "," Segata-Pasolli "," ensembl "],"index":[0,1,2,3,4,5,6],"value":{"__ndarray__":"3SQGgdU5pEC1pnnHKf6OQDPEsS5uwyZA0m9fB85BhUCKjuTyn8OgQOPHmLuW1pZAY+5aQj43dUA=","dtype":"float64","shape":[7]}},"selected":{"id":"10679","type":"Selection"},"selection_policy":{"id":"10680","type":"UnionRenderers"}},"id":"10632","type":"ColumnDataSource"},{"attributes":{"callback":null,"tooltips":"@database: @value GB"},"id":"10627","type":"HoverTool"},{"attributes":{"callback":null},"id":"10609","type":"DataRange1d"}],"root_ids":["10607"]},"title":"Bokeh Application","version":"1.0.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('10779').textContent;
+                  var render_items = [{"docid":"29d883e5-f393-4f26-bfb7-6971f40b4431","roots":{"10607":"20d5fbe4-b275-4f9d-9a44-7ce88e4b20a4"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
